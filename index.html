@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="px-2 py-4 bg-purple-900 lg:bg-green-400 sm:bg-red-500 text-white"  >   
+    <nav class="lg:hidden px-2 py-4 bg-purple-900 lg:bg-green-400 sm:bg-red-500 text-white"  >   
         <ul class="flex font-mono">   
             <li class="mx-3 cursor-pointer ">Home</li>
             <li class="mx-3 cursor-pointer">Details</li>
@@ -17,8 +17,8 @@
         </ul>
         
     </nav>
-    <div class="container mx-12 py-10">
-        <h1 class="text-blue-900">this is red text.</h1>
+    <div class="lg:block hidden  container mx-12 py-10">
+        <h1 class="text-blue-900">you are on large screen : reduce some width for navbar</h1>
     </div>
 </body>
 </html>
