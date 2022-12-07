@@ -1,7 +1,15 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
+@layer components{ 
+    /* it means components ke baad en ko dal do*/
 .btn{
     @apply bg-gray-300  px-4 py-3 text-black font-bold rounded-md  hover:text-white hover:bg-purple-800 active:text-green-600 ;
 }
-@tailwind utilities;
+
+.btn2{
+    @apply bg-green-400 rounded-md px-10 text-red-600 hover:bg-green-800 hover:text-white;
+}
+
+}
