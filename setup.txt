@@ -8,5 +8,5 @@ create style.css and paste =>
 @tailwind components;
 @tailwind utilities;
 
-
+ npx tailwindcss init pranjalconfig  --full
 npm run start
