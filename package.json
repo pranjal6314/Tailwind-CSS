@@ -12,7 +12,8 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build" :"vite build"
   },
   "repository": {
     "type": "git",

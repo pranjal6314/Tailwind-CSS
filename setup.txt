@@ -9,4 +9,9 @@ create style.css and paste =>
 @tailwind utilities;
 
  npx tailwindcss init pranjalconfig  --full
+
 npm run start
+
+Deploying a Tailwind Website to Production
+change package.json => scripts => "build" :"vite build"
+npm run build => dist folder will be created
